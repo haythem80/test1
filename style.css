@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 30px;
+    border-radius: 5%;
+}
+.list{
+    color: white ;
+    font-family: Roboto;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    color: red;
+}
+
+
+.list:hover {
+    color: rgb(255, 127, 165);
+    cursor: pointer;
+}
+
+.title{
+    /* background-color: blue; */
+   margin-left: 15%;
+    color: red;
+    font-family: Roboto;
+    display:flex ;
+    flex-direction: row-reverse;
+    width: 50%;
+    padding-bottom: 20px;
+    
+
+}
+#title{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.title img{
+    /* background-color: aqua; */
+    border-radius: 100%;
+    width: 100px;
+    
+    
+}
+.elment1{
+    width: 65%;
+    border: 1px;
+    /* background-color: brown; */
+    margin-left: 30%;
+}
+
+.profile{
+    width: 20%;
+    /* background-color: aquamarine; */
+    position: absolute;
+    margin-left: 5%;
+}
+
+.hr{
+    margin-top: 50px;
+}
+
+.fa-brands{
+    font-size: 50px;
+    color: blue;
+}
